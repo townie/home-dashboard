@@ -6,3 +6,4 @@ gem 'sqlite3'
 
 gem 'pry-byebug'
 gem 'pry'
+gem 'webinspector'

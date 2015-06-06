@@ -1,1 +1,36 @@
-<h1> yo </h1>
+<%
+  @path = "/var/www/stackdriver-dashboard-1.html"
+%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<style>
+ p {color:white; font-family: Roboto, sans-serif}
+ p.heading {font-size: 120%; margin-bottom: 3px; padding-left: 10px;}
+ iframe {padding-right: 10px; width: 475; height: 300}
+ body {background-color:black}
+</style>
+</head>
+<!-- Target screen size is 1920x1080 -->
+<!-- 1280x1024 -->
+<body>
+  <a href="http://www.accuweather.com/en/us/boston-ma/02108/weather-forecast/348735" class="aw-widget-legal">
+  <!--
+  By accessing and/or using this code snippet, you agree to AccuWeather’s terms and conditions (in English) which can be found at http://www.accuweather.com/en/free-weather-widgets/terms and AccuWeather’s Privacy Statement (in English) which can be found at http://www.accuweather.com/en/privacy.
+  -->
+  </a><div id="awcc1433571368438" class="aw-widget-current"  data-locationkey="348735" data-unit="f" data-language="en-us" data-useip="false" data-uid="awcc1433571368438"></div><script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+
+
+
+  <div style="width: 100%; overflow: hidden;">
+      <div style="width: 600px; float: left;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d94227.66860589896!2d-71.15288869398219!3d42.43593675746693!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1433572296277" width="600" height="450" frameborder="0" style="border:0"></iframe>
+      </div>
+
+      <div style="margin-left: 620px;">
+        <iframe id="newsblock"  style="border-style: none;border-width: 0;border-color: #FFFFFF;background-color: #FFFFFF;width: 550px;height: 600px;" src="http://www.poweringnews.com/newsframe.aspx?feedurl=http%3A//www.npr.org/rss/rss.php%3Fid%3D1001&maxitems=-1&showfeedtitle=0&showtitle=1&showdate=1&showsummary=1&showauthor=0&showactionsbox=0&showrsslink=0&showcopyright=1&opennewwindow=1&inheritstyles=0&bgcolor=%23FFFFFF&titlefontsize=10&summaryfontsize=10&fontfamily=Arial%2CHelvetica&titlecolor=%230000CC&summarycolor=%23000000&sepstyle=none&sepcolor=%23A0A0A0&objectid=newsblock54704875" frameborder="0"></iframe>
+       </div>
+  </div>
+</body>
+</html>
+
